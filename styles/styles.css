@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 h1 {
     font-size: 20px;
     font-family: Verdana;
@@ -7,6 +11,73 @@ h2 {
     font: bold 14px Verdana;
 }
 header, section, footer, aside, nav, article, hgroup {
-    border: 1px solid black;
     display: block;
+}
+body {
+    text-align: center;
+}
+.agrupar {
+    border: 1px solid black;
+    background: gray;
+    width: auto;
+    margin: 10px 10px;
+    padding: 10px;
+}
+header {
+    background: #B1FF59;
+    padding: 5px 15px;
+}
+.menu {
+    background: #566941;
+    padding: 5px 15px;
+    text-align: left;
+}
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+.cabecera h1 {
+    text-align: left;
+}
+.seccion {
+    margin: 20px;
+    background: gray;
+    float: left;
+    width: 65%;
+}
+.columna {
+    float: left;
+}
+img {
+    width: 200px;
+    margin: 20px auto;
+}
+article {
+    border: 1px solid black;
+    padding: auto 10px;
+    background: yellow;
+}
+hgroup {
+    text-align: left;
+}
+time {
+    text-align: left;
+    color: #999;
+}
+.pie {
+    clear: both;
+    background: black;
+}
+.pie p {
+    color: white;
+    font: bold 14px verdana;
+}
+aside{
+    border: 1px solid black;
+    width: 30%;
+    background: yellow;
+    margin: 20px;
+
 }
