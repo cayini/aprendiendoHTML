@@ -1,6 +1,12 @@
-header {
-    background: green;
+h1 {
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
 }
-footer {
-    background: green;
+h2 {
+    font: bold 14px Verdana;
+}
+header, section, footer, aside, nav, article, hgroup {
+    border: 1px solid black;
+    display: block;
 }
